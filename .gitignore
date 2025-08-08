@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Data outputs and intermediate files
+data/lexicon_entries.json
+data/tanakh_concordance.json
+data/targums_concordance.json
+data/peshitta_concordance.json
+data/modern_hebrew_dictionary.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
